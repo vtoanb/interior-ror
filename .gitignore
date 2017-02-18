@@ -21,3 +21,6 @@
 
 # Ignore erd.pdf
 erd.pdf
+
+# remove image
+public/spree/*
