@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: InteriorApp_production
-  username: InteriorApp
-  password: <%= ENV['INTERIORAPP_DATABASE_PASSWORD'] %>
+  # username: InteriorApp
+  # password: <%= ENV['INTERIORAPP_DATABASE_PASSWORD'] %>
