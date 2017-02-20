@@ -22,6 +22,7 @@ gem 'spree_auth_devise', '~> 3.2.0.beta'
 gem 'spree_gateway', '~> 3.2.0.beta'
 gem 'figaro'
 
+gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-0-stable'
 
 group :development, :test do
   gem 'byebug', platform: :mri

@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/spree-contrib/spree_slider.git
+  revision: a39469a3514df887e20a12d781b025c90399deec
+  branch: 3-0-stable
+  specs:
+    spree_slider (1.2.0)
+      spree_backend (>= 3.0.0)
+      spree_core (>= 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -364,6 +373,7 @@ DEPENDENCIES
   spree (~> 3.2.0.rc1)
   spree_auth_devise (~> 3.2.0.beta)
   spree_gateway (~> 3.2.0.beta)
+  spree_slider!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
