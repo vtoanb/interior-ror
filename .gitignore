@@ -23,4 +23,5 @@
 erd.pdf
 
 # remove image
-public/spree/
+public/spree/products/*
+public/spree/slides/*
