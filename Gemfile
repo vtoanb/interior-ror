@@ -23,6 +23,7 @@ gem 'spree_gateway', '~> 3.2.0.beta'
 gem 'figaro'
 
 gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-0-stable'
+gem 'spree_recently_viewed', github: 'recipesharing/spree_recently_viewed', branch: 'master'
 
 group :development, :test do
   gem 'byebug', platform: :mri
