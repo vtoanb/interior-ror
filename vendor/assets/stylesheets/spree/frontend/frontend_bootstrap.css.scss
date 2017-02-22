@@ -6,11 +6,11 @@
 
 // -- Spree Custom Header and Footer ---------------------
 #spree-header {
-  background-color: $brand-primary;
+  background-color: #fff;
   margin-bottom: $line-height-computed;
 
   #header {
-    background: rgba($gray-darker, 0.4);
+    // background: rgba($gray-darker, 0.4);
     padding: $line-height-computed 0;
   }
 
@@ -24,10 +24,11 @@
   }
 
   .nav a {
-    color: white;
+    color: #292929;
 
     &:hover, &:focus {
-      background: rgba($gray-darker, 0.4);
+      background: #fff;
+      border-left: solid 3px lightblue;
     }
   }
 
@@ -51,7 +52,7 @@
 .alert-alert { @extend .alert-info; }
 
 .product-body {
-  height: 300px;
+  height: 240px;
 }
 
 .progress-steps {
@@ -99,4 +100,29 @@ table {
 
 .existing-credit-card-list td {
   padding: 5px;
+}
+// Modify default product
+.panel-mod {
+    margin-bottom: 20px;
+    background-color: #fff;
+    /* border: 1px solid transparent; */
+    /* border-radius: 4px; */
+    /* -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); */
+    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); */
+}
+.panel-footer-mod {
+    margin-bottom: 2em;
+    // padding: 10px 15px;
+    /* background-color: #f5f5f5; */
+    /* border-top: 1px solid #ddd; */
+    /* border-bottom-right-radius: 3px; */
+    /* border-bottom-left-radius: 3px; */
+}
+.price.selling.lead {
+  font-weight: bold;
+  color: darkgray;
+}
+
+.navbar .container-fluid {
+  border-bottom: solid 1px #e0e0e0;
 }

@@ -16,3 +16,10 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::LegacyUser"
+
+Spree::Image.attachment_definitions[:attachment][:styles] = {
+  mini: "50x50",
+  small: "200x200",
+  product: "240x240",
+  large: "600x600"
+}

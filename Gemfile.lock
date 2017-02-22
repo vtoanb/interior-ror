@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/recipesharing/spree_recently_viewed.git
-  revision: e61c65e5df21fe9d900df8ad6b68429032d2a371
-  branch: master
-  specs:
-    spree_recently_viewed (3.2.0.alpha)
-      spree_core (>= 3.1.0)
-
-GIT
   remote: https://github.com/spree-contrib/spree_slider.git
   revision: a39469a3514df887e20a12d781b025c90399deec
   branch: 3-0-stable
@@ -381,7 +373,6 @@ DEPENDENCIES
   spree (~> 3.2.0.rc1)
   spree_auth_devise (~> 3.2.0.beta)
   spree_gateway (~> 3.2.0.beta)
-  spree_recently_viewed!
   spree_slider!
   spring
   spring-watcher-listen (~> 2.0.0)
